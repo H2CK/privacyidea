@@ -12,7 +12,7 @@ After starting the docker container go to:
 https://server or https://server:port if you have defined an alternative port
 
 ## Update Functionality
-This docker image is based on Ubuntu. On each start of the container an update of the used Ubuntu packages is performed. Due to the running update it might take a little longer until the application webtrees is available. 
+This docker image is based on Ubuntu. On each start of the container an update of the used Ubuntu packages is performed. Due to the running update it might take a little longer until the application privacyIDEA is available. 
 
 ## Persistent storage of data
 Configuration files should be stored outside the container. Therefor you should create directories that are mapped to the container internal directories as described under Parameters.
